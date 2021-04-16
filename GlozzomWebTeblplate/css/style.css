@@ -43,13 +43,17 @@ body {
 }
 
 #page-header {
-    position: relative;
-    min-height: 250px;
+    height: 200px;
     background: url(/img/image1.jpg);
+    background-position: 0 -360px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    text-align: center;
     color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
 }
 
 .dark-overlay {
