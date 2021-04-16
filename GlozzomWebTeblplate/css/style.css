@@ -56,6 +56,20 @@ body {
     margin-top: -50px;
 }
 
+#faq .card {
+    border: #444;
+}
+
+#faq a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-header,
+#faq .card-body{
+    background: #333;
+}
+
 .dark-overlay {
     position: absolute;
     top: 0;
