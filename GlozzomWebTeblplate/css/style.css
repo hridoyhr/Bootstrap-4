@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -38,6 +42,16 @@
     color: #fff;
 }
 
+#page-header {
+    position: relative;
+    min-height: 250px;
+    background: url(/img/image1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
 .dark-overlay {
     position: absolute;
     top: 0;
@@ -59,5 +73,10 @@
 }
 
 #video-play a {
+    color: #fff;
+}
+
+#main-footer{
+    background-color: black;
     color: #fff;
 }
